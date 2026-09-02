@@ -95,14 +95,14 @@ PemMes26_05_Hafizh/
 Setiap folder `JS0X` berisi notebook `.ipynb` (dikerjakan/dijalankan di Google Colab) dengan format penamaan:
 
 ```text
-JS0X-topik_nama-tugas.ipynb
+JS0X-nama-tugas.ipynb
 ```
 
 **Contoh:**
 ```text
-JS01/JS01-pengenalan-pembelajaran-mesin_Lab-1.ipynb
-JS01/JS01-pengenalan-pembelajaran-mesin_Tugas-Lab-1.ipynb
-JS02/JS02-pemahaman-data-pra-pengolahan-data_Lab-2.ipynb
+JS01/JS01-Lab-1.ipynb
+JS01/JS01-Lab-2.ipynb
+JS02/JS02-Lab-1.ipynb
 ```
 
 ---
