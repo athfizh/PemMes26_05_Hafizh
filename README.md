@@ -50,7 +50,7 @@
   </tr>
   <tr>
     <td><b>Mata Kuliah</b></td>
-    <td>Pembelajaran Mesin (PemMes)</td>
+    <td>Pembelajaran Mesin (PemMes) — RTI235004</td>
   </tr>
   <tr>
     <td><b>Program Studi</b></td>
@@ -66,7 +66,9 @@
 
 ## 📖 Tentang Repository
 
-Repository ini berisi modul praktikum berbasis codelab untuk mata kuliah **Pembelajaran Mesin (Machine Learning)**. Materinya mencakup dasar-dasar machine learning, pra pengolahan data, ekstraksi fitur, klasterisasi, approximate nearest neighbors, regresi, klasifikasi, hingga artificial neural network dan convolutional neural network. Sebagian besar pengerjaan lab dan tugas dilakukan menggunakan **Google Colab**.
+Repository ini berisi modul praktikum berbasis codelab untuk mata kuliah **Pembelajaran Mesin (Machine Learning)**. Mengacu pada [modul resmi praktikum JTI](https://polinema.gitbook.io/jti-modul-praktikum-pembelajaran-mesin-mah), materinya mencakup pengenalan pembelajaran mesin, pemahaman & pra pengolahan data, ekstraksi fitur, model regresi, model klaster, *approximate nearest neighbors*, model klasifikasi, *artificial neural network*, *convolutional neural network*, hingga evaluasi dan penyajian (*deployment*) model. Sebagian besar pengerjaan lab dan tugas dilakukan menggunakan **Google Colab**.
+
+> ℹ️ Penomoran folder `JS0X` pada repository ini mengikuti urutan sesi perkuliahan aktual (mingguan) sebagaimana disampaikan oleh Team Teaching, sehingga urutan topiknya bisa saja berbeda dari urutan penomoran pada situs modul referensi di atas.
 
 ---
 
@@ -78,31 +80,32 @@ PemMes26_05_Hafizh/
 ├── 📁 JS01/
 ├── 📁 JS02/
 ├── 📁 JS03/
+├── 📁 JS04/
 ├── 📁 JS05/
 ├── 📁 JS06/
 ├── 📁 JS07/
+├── 📁 JS08/
 ├── 📁 JS09/
 ├── 📁 JS10/
 ├── 📁 JS11/
-├── 📁 JS13/
-├── 📁 JS14/
-├── 📁 JS15/
-├── 📁 notes/
-├── 📄 README.md
-└── 📄 portfolio-summary.md
+├── 📁 JS12/
+├── 📄 KUIS1_244107020030_ATHAULLA_HAFIZH.ipynb
+└── 📄 README.md
 ```
 
 Setiap folder `JS0X` berisi notebook `.ipynb` (dikerjakan/dijalankan di Google Colab) dengan format penamaan:
 
 ```text
-JS0X-nama-tugas.ipynb
+JS0X-0Y.ipynb        → notebook Lab ke-Y pada modul JS0X
+JS0X-TugasLab.ipynb  → notebook Tugas Lab pada modul JS0X
 ```
 
 **Contoh:**
 ```text
-JS01/JS01-Lab-1.ipynb
-JS01/JS01-Lab-2.ipynb
-JS02/JS02-Lab-1.ipynb
+JS02/JS02-01.ipynb
+JS02/JS02-TugasLab.ipynb
+JS04/JS04-01.ipynb
+JS04/JS04-TugasLab.ipynb
 ```
 
 ---
@@ -111,20 +114,20 @@ JS02/JS02-Lab-1.ipynb
 
 | No | Topik Praktikum | Sub-materi | Direktori | Status |
 |:--:|---|---|:---:|:---:|
-| JS01 | Pengenalan Pembelajaran Mesin | Konsep Dasar, Etika dan Tantangan, Lab 1, Tugas Lab 1, Tugas Pendahuluan JS02 | [JS01](./JS01) | Coming Soon |
-| JS02 | Pemahaman Data dan Pra Pengolahan Data | Rekognisi & Pola, Jenis-Jenis Data, EDA, Pra Pengolahan Data, Lab 1–4, Tugas Lab | [JS02](./JS02) | Coming Soon |
-| JS03 | Ekstraksi Fitur | Fitur & Ekstraksi Fitur, Proses Ekstraksi Fitur, Seleksi Fitur, Lab 1–3, Tugas Praktikum | [JS03](./JS03) | Coming Soon |
+| JS01 | Pengenalan Pembelajaran Mesin | Konsep Dasar, Etika dan Tantangan, Lab 1, Tugas Lab 1, Tugas Pendahuluan JS02 | [JS01](./JS01) | ✅ Selesai |
+| JS02 | Pemahaman Data dan Pra Pengolahan Data | Rekognisi & Pola, Jenis-Jenis Data, EDA, Pra Pengolahan Data, Lab 1–4, Tugas Lab (Wisconsin Breast Cancer) | [JS02](./JS02) | ✅ Selesai |
+| JS03 | Ekstraksi Fitur | Fitur & Ekstraksi Fitur, Proses Ekstraksi Fitur, Seleksi Fitur, Lab 1–3, Tugas Lab (Wisconsin Breast Cancer) | [JS03](./JS03) | ✅ Selesai |
+| JS04 | Regresi | Dasar Regresi, Simple/Multiple/Polynomial/Support Vector Regression, Data Latih-Validasi-Uji, Lab 0–2, Tugas Lab (Medical Insurance Charges) | [JS04](./JS04) | ✅ Selesai |
 | JS05 | Klasterisasi | K-Means, DBSCAN, Lab 1–3, Tugas Lab | [JS05](./JS05) | Coming Soon |
 | JS06 | Hierarchical Clustering | Konsep Dasar, HDBSCAN, Lab 1–3, Tugas Lab 1–2 | [JS06](./JS06) | Coming Soon |
 | JS07 | Approximate Nearest Neighbors (ANN) | Dasar ANN, ANNOY, FAISS, HNSW, Lab 1–5, Tugas Lab 1–2 | [JS07](./JS07) | Coming Soon |
-| JS09 | Regresi | Dasar Regresi, Simple/Multiple/Polynomial/Support Vector Regression, Data Latih-Validasi-Uji, Lab 0–2, Tugas Lab | [JS09](./JS09) | Coming Soon |
-| JS10 | Klasifikasi 1 | k-Nearest Neighbors (kNN), Naive Bayes, Lab 1–3, Tugas Lab 1–2 | [JS10](./JS10) | Coming Soon |
-| JS11 | Klasifikasi 2 | Dasar Teori, Lab 1–5, Tugas Lab | [JS11](./JS11) | Coming Soon |
-| JS13 | Artificial Neural Network | Perceptron, Artificial Neural Network, Lab 1–4, Tugas Lab | [JS13](./JS13) | Coming Soon |
-| JS14 | Convolutional Neural Network | CNN, Lab 1–2, Tugas Lab | [JS14](./JS14) | Coming Soon |
-| JS15 | Machine Learning Pipeline & Deployment | ML Pipeline, Lab 1–2, Tugas Lab | [JS15](./JS15) | Coming Soon |
+| JS08 | Klasifikasi 1 | k-Nearest Neighbors (kNN), Naive Bayes, Lab 1–3, Tugas Lab 1–2 | [JS08](./JS08) | Coming Soon |
+| JS09 | Klasifikasi 2 | Support Vector Machine, Dasar Teori, Lab 1–5, Tugas Lab | [JS09](./JS09) | Coming Soon |
+| JS10 | Artificial Neural Network | Perceptron, Artificial Neural Network, Lab 1–4, Tugas Lab | [JS10](./JS10) | Coming Soon |
+| JS11 | Convolutional Neural Network | CNN, Lab 1–2, Tugas Lab | [JS11](./JS11) | Coming Soon |
+| JS12 | Machine Learning Pipeline & Deployment | ML Pipeline, Lab 1–2, Tugas Lab | [JS12](./JS12) | Coming Soon |
 
-> Nomor modul mengikuti penomoran resmi (JS01–JS15) dari materi praktikum; beberapa nomor (mis. JS04, JS08, JS12) merupakan sesi review/evaluasi dan tidak memiliki modul praktikum tersendiri.
+> Referensi lengkap sub-materi tiap modul dapat dilihat pada [modul praktikum resmi JTI](https://polinema.gitbook.io/jti-modul-praktikum-pembelajaran-mesin-mah).
 
 ---
 
@@ -149,13 +152,13 @@ JS02/JS02-Lab-1.ipynb
 
 ## 🎯 Capaian Pembelajaran
 
-- [ ] Memahami konsep dasar, etika, dan tantangan dalam pembelajaran mesin.
-- [ ] Melakukan pemahaman data dan pra pengolahan data (EDA, cleaning, preprocessing).
-- [ ] Melakukan ekstraksi dan seleksi fitur.
+- [x] Memahami konsep dasar, etika, dan tantangan dalam pembelajaran mesin.
+- [x] Melakukan pemahaman data dan pra pengolahan data (EDA, cleaning, preprocessing).
+- [x] Melakukan ekstraksi dan seleksi fitur.
+- [x] Menerapkan berbagai teknik regresi (linear, multiple, polynomial, SVR).
 - [ ] Menerapkan algoritma klasterisasi (K-Means, DBSCAN, Hierarchical Clustering).
 - [ ] Menerapkan Approximate Nearest Neighbors (ANNOY, FAISS, HNSW).
-- [ ] Menerapkan berbagai teknik regresi (linear, multiple, polynomial, SVR).
-- [ ] Menerapkan algoritma klasifikasi (kNN, Naive Bayes, dan lainnya).
+- [ ] Menerapkan algoritma klasifikasi (kNN, Naive Bayes, SVM, dan lainnya).
 - [ ] Membangun Artificial Neural Network (Perceptron & ANN).
 - [ ] Membangun Convolutional Neural Network (CNN).
 - [ ] Menyusun ML Pipeline dan memahami dasar deployment model.
@@ -166,6 +169,7 @@ JS02/JS02-Lab-1.ipynb
 
 | Referensi | Tautan |
 |---|:---:|
+| Modul Praktikum JTI - Pembelajaran Mesin | [Akses Modul](https://polinema.gitbook.io/jti-modul-praktikum-pembelajaran-mesin-mah) |
 | Python Documentation | [Akses Docs](https://docs.python.org/3/) |
 | Google Colab | [Akses Colab](https://colab.research.google.com/) |
 | scikit-learn Documentation | [Akses Docs](https://scikit-learn.org/stable/) |
