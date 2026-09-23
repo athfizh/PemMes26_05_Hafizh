@@ -50,7 +50,7 @@
   </tr>
   <tr>
     <td><b>Mata Kuliah</b></td>
-    <td>Pembelajaran Mesin (PemMes) — RTI235004</td>
+    <td>Pembelajaran Mesin (PemMes)</td>
   </tr>
   <tr>
     <td><b>Program Studi</b></td>
