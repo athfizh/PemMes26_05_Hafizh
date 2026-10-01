@@ -118,7 +118,7 @@ JS04/JS04-TugasLab.ipynb
 | JS02 | Pemahaman Data dan Pra Pengolahan Data | Rekognisi & Pola, Jenis-Jenis Data, EDA, Pra Pengolahan Data, Lab 1–4, Tugas Lab (Wisconsin Breast Cancer) | [JS02](./JS02) | ✅ Selesai |
 | JS03 | Ekstraksi Fitur | Fitur & Ekstraksi Fitur, Proses Ekstraksi Fitur, Seleksi Fitur, Lab 1–3, Tugas Lab (Wisconsin Breast Cancer) | [JS03](./JS03) | ✅ Selesai |
 | JS04 | Regresi | Dasar Regresi, Simple/Multiple/Polynomial/Support Vector Regression, Data Latih-Validasi-Uji, Lab 0–2, Tugas Lab (Medical Insurance Charges) | [JS04](./JS04) | ✅ Selesai |
-| JS05 | Klasifikasi 1 | k-Nearest Neighbors (kNN), Naive Bayes, Lab 1–3, Tugas Lab 1–2 | [JS05](./JS05) | Coming Soon |
+| JS05 | Klasifikasi 1 | k-Nearest Neighbors (kNN), Naive Bayes, Lab 1–3, Tugas Lab 1–2 | [JS05](./JS05) | ✅ Selesai |
 | JS06 | Klasifikasi 2 | Support Vector Machine, Dasar Teori, Lab 1–5, Tugas Lab | [JS06](./JS06) | Coming Soon |
 | JS07 | Klasterisasi | K-Means, DBSCAN, Lab 1–3, Tugas Lab | [JS07](./JS07) | Coming Soon |
 | JS08 | Hierarchical Clustering | Konsep Dasar, HDBSCAN, Lab 1–3, Tugas Lab 1–2 | [JS08](./JS08) | Coming Soon |
@@ -156,7 +156,8 @@ JS04/JS04-TugasLab.ipynb
 - [x] Melakukan pemahaman data dan pra pengolahan data (EDA, cleaning, preprocessing).
 - [x] Melakukan ekstraksi dan seleksi fitur.
 - [x] Menerapkan berbagai teknik regresi (linear, multiple, polynomial, SVR).
-- [ ] Menerapkan algoritma klasifikasi (kNN, Naive Bayes, SVM, dan lainnya).
+- [x] Menerapkan algoritma klasifikasi (kNN, Naive Bayes, dan lainnya).
+- [ ] Menerapkan Support Vector Machine dan teknik klasifikasi lanjutan lainnya.
 - [ ] Menerapkan algoritma klasterisasi (K-Means, DBSCAN, Hierarchical Clustering).
 - [ ] Menerapkan Approximate Nearest Neighbors (ANNOY, FAISS, HNSW).
 - [ ] Membangun Artificial Neural Network (Perceptron & ANN).
