@@ -25,9 +25,9 @@
 
 <br/>
 
-[![GitHub commits](https://img.shields.io/github/commit-activity/m/athfizh/PemMes26_05_Hafizh?style=flat-square&color=4ade80&label=Commits)](https://github.com/athfizh/PemMes26_05_Hafizh/commits)
+[![GitHub commits](https://img.shields.io/github/commit-activity/m/athfizh/PemMes26_05_Hafizh?style=flat-square&color=4ade80&label=Commits&cacheSeconds=3600)](https://github.com/athfizh/PemMes26_05_Hafizh/commits)
 [![GitHub repo size](https://img.shields.io/github/repo-size/athfizh/PemMes26_05_Hafizh?style=flat-square&color=60a5fa&label=Repo%20Size)](https://github.com/athfizh/PemMes26_05_Hafizh)
-[![GitHub last commit](https://img.shields.io/github/last-commit/athfizh/PemMes26_05_Hafizh?style=flat-square&color=f472b6&label=Last%20Update)](https://github.com/athfizh/PemMes26_05_Hafizh)
+[![GitHub last commit](https://img.shields.io/github/last-commit/athfizh/PemMes26_05_Hafizh?style=flat-square&color=f472b6&label=Last%20Update&cacheSeconds=3600)](https://github.com/athfizh/PemMes26_05_Hafizh)
 
 </div>
 
