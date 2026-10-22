@@ -124,7 +124,7 @@ JS06/JS06-TugasLab2.ipynb
 | JS04 | Regresi | Dasar Regresi, Simple/Multiple/Polynomial/Support Vector Regression, Data Latih-Validasi-Uji, Lab 0–2, Tugas Lab (Medical Insurance Charges) | [JS04](./JS04) | ✅ Selesai |
 | JS05 | Klasifikasi 1 | k-Nearest Neighbors (kNN), Naive Bayes, Lab 1–3, Tugas Lab 1–2 | [JS05](./JS05) | ✅ Selesai |
 | JS06 | Klasifikasi 2 | Support Vector Machine (Data Linier, Non-Linier, Overlapping), Klasifikasi Citra Wajah, Klasifikasi Citra Siang-Malam, Lab 1–5, Tugas Lab 1–2 (Voice Gender Classification & Klasifikasi Siang-Malam dengan Kernel RBF) | [JS06](./JS06) | ✅ Selesai |
-| JS07 | Klasterisasi | K-Means, DBSCAN, Lab 1–3, Tugas Lab | [JS07](./JS07) | Coming Soon |
+| JS07 | Klasterisasi | K-Means, DBSCAN, Lab 1–3, Tugas Lab | [JS07](./JS07) | ✅ Selesai |
 | JS08 | Hierarchical Clustering | Konsep Dasar, HDBSCAN, Lab 1–3, Tugas Lab 1–2 | [JS08](./JS08) | Coming Soon |
 | JS09 | Approximate Nearest Neighbors (ANN) | Dasar ANN, ANNOY, FAISS, HNSW, Lab 1–5, Tugas Lab 1–2 | [JS09](./JS09) | Coming Soon |
 | JS10 | Artificial Neural Network | Perceptron, Artificial Neural Network, Lab 1–4, Tugas Lab | [JS10](./JS10) | Coming Soon |
