@@ -110,6 +110,10 @@ JS06/JS06-01.ipynb
 JS06/JS06-05.ipynb
 JS06/JS06-TugasLab1.ipynb
 JS06/JS06-TugasLab2.ipynb
+JS08/JS08-03.ipynb
+JS08/JS08-TugasLab2.ipynb
+JS09/JS09-05.ipynb
+JS09/JS09-TugasLab2.ipynb
 ```
 
 ---
@@ -118,15 +122,15 @@ JS06/JS06-TugasLab2.ipynb
 
 | No | Topik Praktikum | Sub-materi | Direktori | Status |
 |:--:|---|---|:---:|:---:|
-| JS01 | Pengenalan Pembelajaran Mesin | Konsep Dasar, Etika dan Tantangan, Lab 1, Tugas Lab 1, Tugas Pendahuluan JS02 | [JS01](./JS01) | ✅ Selesai |
-| JS02 | Pemahaman Data dan Pra Pengolahan Data | Rekognisi & Pola, Jenis-Jenis Data, EDA, Pra Pengolahan Data, Lab 1–4, Tugas Lab (Wisconsin Breast Cancer) | [JS02](./JS02) | ✅ Selesai |
-| JS03 | Ekstraksi Fitur | Fitur & Ekstraksi Fitur, Proses Ekstraksi Fitur, Seleksi Fitur, Lab 1–3, Tugas Lab (Wisconsin Breast Cancer) | [JS03](./JS03) | ✅ Selesai |
-| JS04 | Regresi | Dasar Regresi, Simple/Multiple/Polynomial/Support Vector Regression, Data Latih-Validasi-Uji, Lab 0–2, Tugas Lab (Medical Insurance Charges) | [JS04](./JS04) | ✅ Selesai |
-| JS05 | Klasifikasi 1 | k-Nearest Neighbors (kNN), Naive Bayes, Lab 1–3, Tugas Lab 1–2 | [JS05](./JS05) | ✅ Selesai |
-| JS06 | Klasifikasi 2 | Support Vector Machine (Data Linier, Non-Linier, Overlapping), Klasifikasi Citra Wajah, Klasifikasi Citra Siang-Malam, Lab 1–5, Tugas Lab 1–2 (Voice Gender Classification & Klasifikasi Siang-Malam dengan Kernel RBF) | [JS06](./JS06) | ✅ Selesai |
-| JS07 | Klasterisasi | K-Means, DBSCAN, Lab 1–3, Tugas Lab | [JS07](./JS07) | ✅ Selesai |
-| JS08 | Hierarchical Clustering | Konsep Dasar, HDBSCAN, Lab 1–3, Tugas Lab 1–2 | [JS08](./JS08) | Coming Soon |
-| JS09 | Approximate Nearest Neighbors (ANN) | Dasar ANN, ANNOY, FAISS, HNSW, Lab 1–5, Tugas Lab 1–2 | [JS09](./JS09) | Coming Soon |
+| JS01 | Pengenalan Pembelajaran Mesin | Konsep Dasar, Etika dan Tantangan, Lab 1, Tugas Lab 1, Tugas Pendahuluan JS02 | [JS01](./JS01) | Selesai |
+| JS02 | Pemahaman Data dan Pra Pengolahan Data | Rekognisi & Pola, Jenis-Jenis Data, EDA, Pra Pengolahan Data, Lab 1–4, Tugas Lab (Wisconsin Breast Cancer) | [JS02](./JS02) |Selesai |
+| JS03 | Ekstraksi Fitur | Fitur & Ekstraksi Fitur, Proses Ekstraksi Fitur, Seleksi Fitur, Lab 1–3, Tugas Lab (Wisconsin Breast Cancer) | [JS03](./JS03) | Selesai |
+| JS04 | Regresi | Dasar Regresi, Simple/Multiple/Polynomial/Support Vector Regression, Data Latih-Validasi-Uji, Lab 0–2, Tugas Lab (Medical Insurance Charges) | [JS04](./JS04) | Selesai |
+| JS05 | Klasifikasi 1 | k-Nearest Neighbors (kNN), Naive Bayes, Lab 1–3, Tugas Lab 1–2 | [JS05](./JS05) | Selesai |
+| JS06 | Klasifikasi 2 | Support Vector Machine (Data Linier, Non-Linier, Overlapping), Klasifikasi Citra Wajah, Klasifikasi Citra Siang-Malam, Lab 1–5, Tugas Lab 1–2 (Voice Gender Classification & Klasifikasi Siang-Malam dengan Kernel RBF) | [JS06](./JS06) | Selesai |
+| JS07 | Klasterisasi | K-Means, DBSCAN, Lab 1–3, Tugas Lab | [JS07](./JS07) | Selesai |
+| JS08 | Hierarchical Clustering | Konsep Dasar, HDBSCAN, Lab 1–3, Tugas Lab 1–2 | [JS08](./JS08) | Selesai |
+| JS09 | Approximate Nearest Neighbors (ANN) | Dasar ANN, ANNOY, FAISS, HNSW, Lab 1–5, Tugas Lab 1–2 | [JS09](./JS09) | Selesai |
 | JS10 | Artificial Neural Network | Perceptron, Artificial Neural Network, Lab 1–4, Tugas Lab | [JS10](./JS10) | Coming Soon |
 | JS11 | Convolutional Neural Network | CNN, Lab 1–2, Tugas Lab | [JS11](./JS11) | Coming Soon |
 | JS12 | Machine Learning Pipeline & Deployment | ML Pipeline, Lab 1–2, Tugas Lab | [JS12](./JS12) | Coming Soon |
@@ -145,9 +149,11 @@ JS06/JS06-TugasLab2.ipynb
 | **Environment** | Google Colab, Jupyter Notebook |
 | **Data Handling** | Pandas, NumPy |
 | **Machine Learning** | scikit-learn |
+| **Clustering** | scikit-learn, HDBSCAN |
+| **Approximate Nearest Neighbors** | ANNOY, FAISS, HNSW (`hnswlib`) |
 | **Deep Learning** | TensorFlow / Keras |
-| **Approximate Nearest Neighbors** | ANNOY, FAISS, HNSW |
 | **Visualisasi** | Matplotlib, Seaborn |
+| **Dataset Source** | Kaggle, UCI ML Repository |
 | **Version Control** | Git & GitHub |
 
 </div>
@@ -160,10 +166,10 @@ JS06/JS06-TugasLab2.ipynb
 - [x] Melakukan pemahaman data dan pra pengolahan data (EDA, cleaning, preprocessing).
 - [x] Melakukan ekstraksi dan seleksi fitur.
 - [x] Menerapkan berbagai teknik regresi (linear, multiple, polynomial, SVR).
-- [x] Menerapkan algoritma klasifikasi (kNN, Naive Bayes, dan lainnya).
+- [x] Menerapkan algoritma klasifikasi (kNN, Naive Bayes, SVM, dan lainnya).
 - [x] Menerapkan Support Vector Machine dan teknik klasifikasi lanjutan lainnya.
-- [ ] Menerapkan algoritma klasterisasi (K-Means, DBSCAN, Hierarchical Clustering).
-- [ ] Menerapkan Approximate Nearest Neighbors (ANNOY, FAISS, HNSW).
+- [x] Menerapkan algoritma klasterisasi (K-Means, DBSCAN, Hierarchical Clustering/HDBSCAN).
+- [x] Menerapkan Approximate Nearest Neighbors (ANNOY, FAISS, HNSW).
 - [ ] Membangun Artificial Neural Network (Perceptron & ANN).
 - [ ] Membangun Convolutional Neural Network (CNN).
 - [ ] Menyusun ML Pipeline dan memahami dasar deployment model.
@@ -181,6 +187,7 @@ JS06/JS06-TugasLab2.ipynb
 | Pandas Documentation | [Akses Docs](https://pandas.pydata.org/docs/) |
 | TensorFlow Documentation | [Akses Docs](https://www.tensorflow.org/guide) |
 | FAISS Documentation | [Akses Docs](https://faiss.ai/) |
+| HNSW (`hnswlib`) | [Akses Repo](https://github.com/nmslib/hnswlib) |
 
 ---
 
